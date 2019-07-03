@@ -6,5 +6,7 @@ max = int(sys.argv[-1]) + 1
 for i in range(max):
     if i == max - 1:
         sys.stdout.write("{}".format(i))
+    else:
+        print("debug:", i)
 
 sys.exit()

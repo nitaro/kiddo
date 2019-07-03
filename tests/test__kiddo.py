@@ -9,7 +9,7 @@ import random
 import unittest
 import kiddo
 
-logging.basicConfig(level=10)
+logging.basicConfig(level=logging.INFO)
 
 
 class Test_Kiddo(unittest.TestCase):
@@ -62,7 +62,7 @@ class Test_Kiddo(unittest.TestCase):
         # creat Kiddo instance and add memory logger for its child process.
         kid = kiddo.Kiddo(name=sys._getframe().f_code.co_name)
         mem_logger = logging.handlers.MemoryHandler(1000)
-        kid.child_logger.level = 10
+        kid.child_logger.level = logging.INFO
         kid.child_logger.addHandler(mem_logger)
 
         # determine value of stdout line.

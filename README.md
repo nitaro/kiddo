@@ -5,7 +5,7 @@ On Windows, it also prevents a new console window from opening.
 
 ## Example
 	>>> import logging
-	>>> logging.basicConfig(level=10)
+	>>> logging.basicConfig(level=logging.DEBUG)
 	>>> import kiddo
 	>>> kid = kiddo.Kiddo("hiKiddo")
 	>>> kidding = kid.run("python3 tests/echo_max_line.py 123")

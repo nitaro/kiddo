@@ -1,0 +1,6 @@
+*~
+.*.sw*
+*.pyc
+.vscode/
+*.code-workspace
+reset_git.bat

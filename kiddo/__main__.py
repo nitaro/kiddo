@@ -47,9 +47,9 @@ class Kiddo():
         >>> kid = Kiddo("hiKiddo")
         >>> kidding = kid.run("myscript.bat")
         >>> # stdout from @kidding will be routed to a Python logger, @kid.child_logger.
-	    >>> return_code, stderr = kidding
-	    >>> return_code # 0
-	    >>> stderr # []
+        >>> return_code, stderr = kidding
+        >>> return_code # 0
+        >>> stderr # []
     """
 
 

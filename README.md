@@ -1,7 +1,5 @@
 # Introduction
-**Kiddo** provides simplified execution and logging of command line scripts.
-
-On Windows, it also prevents a new console window from opening.
+**Kiddo** makes it easy to run child scripts.
 
 ## Example
 	>>> import logging
@@ -18,7 +16,6 @@ On Windows, it also prevents a new console window from opening.
 	0
 	>>> stderr
 	[]
-
 
 ## Logging
 **Kiddo** logs `STDOUT` to a Kiddo instance's `child_logger` object.

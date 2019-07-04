@@ -39,9 +39,7 @@ def DEFAULT_LOG_INTERPRETER(line, **kwargs):
 
 
 class Kiddo():
-    """ Kiddo provides simplified execution and logging of command line scripts.
-
-    On Windows, it also prevents a new console window from opening.
+    """ Kiddo makes it easy to run child scripts.
     
     Example:
         >>> kid = Kiddo("hiKiddo")

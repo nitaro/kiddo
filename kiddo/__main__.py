@@ -180,7 +180,7 @@ class Kiddo():
         while self.child_process.poll() is None:
         
             for line in self.child_process.stdout:
-                line = line.encode().decode(self.charset, errors="i")
+                line = line.encode().decode(self.charset, errors="ignore")
                 line = line.strip()
                 self._log_child_process_line(line)
 

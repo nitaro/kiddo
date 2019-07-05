@@ -3,12 +3,10 @@
 
 ## Example
 	>>> import logging
-	>>> logging.basicConfig(level=logging.DEBUG)
+	>>> logging.basicConfig(level=logging.INFO)
 	>>> import kiddo
 	>>> kid = kiddo.Kiddo("hiKiddo")
-	>>> kidding = kid.run("python3 tests/echo_max_line.py 123")
-	DEBUG:kiddo.__main__:Split @arg_list string to a list: ['python3', 'tests/echo_max_line.py', '123']
-	DEBUG:kiddo.__main__:Running command: python3 tests/echo_max_line.py 123
+	>>> kidding = kid.run("py -3 tests/echo_max_line.py 123")
 	INFO:hiKiddo:123
 	INFO:kiddo.__main__:Command returned code: 0
 	>>> return_code, stderr = kidding

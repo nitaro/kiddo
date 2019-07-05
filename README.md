@@ -8,7 +8,6 @@
 	>>> kid = kiddo.Kiddo("hiKiddo")
 	>>> kidding = kid.run("py -3 tests/echo_max_line.py 123")
 	INFO:hiKiddo:123
-	INFO:kiddo.__main__:Command returned code: 0
 	>>> return_code, stderr = kidding
 	>>> return_code
 	0

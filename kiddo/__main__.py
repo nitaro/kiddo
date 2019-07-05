@@ -192,7 +192,7 @@ class Kiddo():
         if retcode != 0 or len(reterr) != 0:
             self.logger.warning("Running the command appears to have failed.")
             self.logger.debug("@self.child_process.stderr: {}".format(reterr))
-        self.logger.info("Command returned code: {}".format(retcode))
+        self.logger.debug("Command returned code: {}".format(retcode))
 
         return (retcode, reterr)
 

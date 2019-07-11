@@ -132,7 +132,7 @@ class Kiddo():
             - arg_list (list): When joined with a space, each item in this list forms the command to
             run. Example: "arg_list=['python3', '/myScripts/foo.py'])". If @arg_list is a string, it
             will be split before being passed to subprocess.Popen().
-            - **kwargs: Additional keyword values to pass along to subprocess.Popen() except for
+            - kwargs: Additional keyword values to pass along to subprocess.Popen() except for
             forbidden arguments: "args", "stdout", "stderr", "startup_info", "text", 
             "universal_newlines".
 
